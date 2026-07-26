@@ -1,4 +1,4 @@
-package com.fitness.activityservice.service;
+package com.fitness.activityservice.repository;
 
 import com.fitness.activityservice.model.Activity;
 import org.springframework.data.mongodb.repository.MongoRepository;
