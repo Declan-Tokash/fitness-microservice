@@ -1,10 +1,5 @@
 spring:
   application:
-    name: userservice
-  datasource:
-    url: jdbc:postgresql://localhost:5432/fitness_user_db
-    username: declantokash
-  jpa:
-    hibernate:
-      ddl-auto: update
-    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    name: user-service
+  config:
+    import: optional:configserver:http://localhost:8888
